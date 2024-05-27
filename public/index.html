@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <title>Platzi Travel</title>
+  </head>
+  <body class="font-Montserrat">
+    <!-- <div class="flex h-auto min-h-screen w-full justify-center bg-gray-100">
+        <div class="grid h-auto w-full max-w-5xl grid-cols-1 gap-4 bg-gray-300 p-10 text-right sm:grid-cols-2 sm:p-20 font-Montserrat">
+          <div class="h-96 rounded-lg border-2 border-red-500 bg-primary sm:col-start-1 sm:col-end-3 sm:h-auto">eres un montserrat</div>
+          <div class="h-96 rounded-lg border-2 border-red-500 bg-primary sm:col-start-1 sm:col-end-2 sm:row-start-2 sm:row-end-4 sm:h-auto">div 2</div>
+          <div class="h-96 rounded-lg border-2 border-red-500 bg-primary sm:col-start-2 sm:col-end-3 sm:h-auto">div 3</div>
+          <div class="h-96 rounded-lg border-2 border-red-500 bg-primary sm:col-start-2 sm:col-end-3 sm:h-auto">div 4</div>
+        </div>
+      </div> -->
+    <header>
+      <nav></nav>
+      <div id="tab_bar"></div>
+    </header>
+    <main>
+      <section class="w-full h-screen">
+        <div class="home">
+          <!-- <div class="w-full h-full flex flex-col absolute space-7-96 py-4 py-4 items-center"> -->
+          <div
+            class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+            <input
+              class="outline-none leading-none rounded-full w-3/5 shadow-xl p-4 transition duration-300 focus-within:shadow-xl focus:ring-2 focus:w-11/12"
+              placeholder="San Francisco"
+              type="search" />
+            <button
+              class="bg-white text-xl font-semibold text-primary p-4 shadow-lg w-3/5 rounded-full leading-none transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">
+              Explorar More
+            </button>
+          </div>
+
+          <div class="w-full h-3/4">
+            <div class="w-full h-full">
+              <img src="./img/sanFrancisco.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="p-6" id="recomendados">
+          <div class="text-primary text-3xl">Otras Recomendaciones</div>
+          <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 overflow-y-hidden">
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
+                <p class="text-white text-lg font-bold">Norway</p>
+                <p class="text-white">Paisajes Increibles</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
+                <p class="text-tertiary text-lg font-bold">New York</p>
+                <p class="text-tertiary">Paisajes Increibles</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
+                <p class="text-white text-lg font-bold">Yosemite</p>
+                <p class="text-white">Paisajes Increibles</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
+                <p class="text-tertiary text-lg font-bold">Seattle</p>
+                <p class="text-tertiary">Paisajes Increibles</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
+                <p class="text-white text-lg font-bold">Switzerland</p>
+                <p class="text-white">Paisajes Increibles</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rentas_destacadas"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
