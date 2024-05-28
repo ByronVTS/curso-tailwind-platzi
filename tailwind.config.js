@@ -1,5 +1,4 @@
 module.exports = {
-  purge:[],
   darkMode:'class',
   content: [
     "./src/**/*.{html,js,ts,jsx,tsx}", // Incluye todos los archivos HTML y JavaScript en la carpeta src
