@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,20 +11,20 @@
       rel="stylesheet" />
     <title>Platzi Travel</title>
   </head>
-  <body class="font-Montserrat scroll-smooth">
+  <body class="font-Montserrat scroll-smooth dark:bg-gray-900">
     <header>
-      <nav class="z-50 w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed">
+      <nav class="z-10 w-full h-14 hidden bg-white dark:bg-gray-800 lg:flex p-4 justify-between fixed">
         <div class="h-auto w-auto">
-          <p class="text-xl text-primary">PlatziTravel</p>
+          <p class="dark:text-white text-xl text-primary">PlatziTravel</p>
         </div>
-        <div class="flex gap-4 ml-4">
-          <a class="font-bold text-md text-primary" href="#home">Inicio</a>
-          <a class="font-bold text-md text-primary" href="#recomendados"
+        <div class="dark:text-white flex gap-4 ml-4">
+          <a class="dark:text-white font-bold text-md text-primary" href="#home">Inicio</a>
+          <a class="dark:text-white font-bold text-md text-primary" href="#recomendados"
             >Recomendados</a
           >
-          <a class="font-bold text-md text-primary" href="#rentas">Rentas</a>
-          <a class="font-bold text-md text-primary" href="#FAQS">FAQS</a>
-          <a class="font-bold text-md text-primary" href="#nosotros"
+          <a class="dark:text-white font-bold text-md text-primary" href="#rentas">Rentas</a>
+          <a class="dark:text-white font-bold text-md text-primary" href="#FAQS">FAQS</a>
+          <a class="dark:text-white font-bold text-md text-primary" href="#nosotros"
             >Sobre nosotros</a
           >
         </div>
@@ -37,11 +37,13 @@
             stroke="currentColor"
             class="size-9">
             <path
-              class="fill-current text-red-500"
+              class="fill-current text-red-500 "
               stroke-linecap="round"
               stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
+          <button id="toggle">
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,11 +52,13 @@
             stroke="currentColor"
             class="size-9">
             <path
-              class="fill-current text-gray-500"
+              class="fill-current text-gray-500 dark:text-white"
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
           </svg>
+        </button>
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -63,7 +67,7 @@
             stroke="currentColor"
             class="size-9">
             <path
-              class="fill-current text-gray-500"
+              class="fill-current text-gray-500 dark:text-white"
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -104,66 +108,66 @@
             class="w-auto h-auto p-10 items-center overflow-x-auto overscroll-x-contain flex space-x-4 overflow-y-hidden">
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-white text-lg font-bold">Norway</p>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold  ">Norway</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-tertiary text-lg font-bold">New York</p>
-                <p class="text-tertiary">Paisajes Increibles</p>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">New York</p>
+                <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-white text-lg font-bold">Yosemite</p>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold  ">Yosemite</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-tertiary text-lg font-bold">Seattle</p>
-                <p class="text-tertiary">Paisajes Increibles</p>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">Seattle</p>
+                <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div
                 class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-white text-lg font-bold">Switzerland</p>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold ">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-tertiary text-lg font-bold">Seattle</p>
-                <p class="text-tertiary">Paisajes Increibles</p>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white" >Seattle</p>
+                <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div
                 class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-white text-lg font-bold">Switzerland</p>
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold  ">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5">
-                <p class="text-tertiary text-lg font-bold">Seattle</p>
-                <p class="text-tertiary">Paisajes Increibles</p>
+              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600 ">
+                <p class="text-tertiary text-lg font-bold dark:text-white">Seattle</p>
+                <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div
                 class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5">
+              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
                 <p class="text-white text-lg font-bold">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
@@ -204,7 +208,7 @@
               <p class="text-xl font-medium text-primary">
                 Politica de cancelación
               </p>
-              <p class="text-md pt-2">
+              <p class="text-md pt-2 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt
               </p>
@@ -213,7 +217,7 @@
               <p class="text-xl font-medium text-primary">
                 Politica de cancelación
               </p>
-              <p class="text-md pt-2">
+              <p class="text-md pt-2 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt
               </p>
@@ -222,7 +226,7 @@
               <p class="text-xl font-medium text-primary">
                 Politica de cancelación
               </p>
-              <p class="text-md pt-2">
+              <p class="text-md pt-2 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt
               </p>
@@ -230,14 +234,19 @@
           </div>
         </div>
         <footer
-         id="#nosotros" class="h-auto w-full mt-6 p-6 h-auto bg-gray-200 pd-6 space-y-2">
-          <p class="text-lg text-gray-500 font-bold">About Us</p>
-          <p class="text-sm text-gray-600">Investors</p>
-          <p class="text-sm text-gray-600">Jobs</p>
-          <p class="text-sm text-gray-600">Privaci</p>
-          <p class="text-sm text-gray-600">Terminos y condiciones</p>
-          <p class="text-sm text-gray-600">Platzi travel</p>
-          <p class="text-sm text-gray-600">Fallow Us</p>
+         id="#nosotros" class=" h-auto w-full mt-6 p-6 h-auto bg-gray-200 pd-6 space-y-2 dark:bg-black lg:pb-12 pb-20">
+          <p class="text-lg text-gray-500 font-bold text-center dark:text-white">About Us</p>
+          <div class="lg:flex lg:justify-center">
+
+            <div class="lg:flex lg:w-3/5 lg:justify-between">
+              <p class="text-sm text-gray-600 dark:text-white">Investors</p>
+              <p class="text-sm text-gray-600 dark:text-white">Jobs</p>
+              <p class="text-sm text-gray-600 dark:text-white">Privaci</p>
+              <p class="text-sm text-gray-600 dark:text-white">Terminos y condiciones</p>
+              <p class="text-sm text-gray-600 dark:text-white">Platzi travel</p>
+              <p class="text-sm text-gray-600 dark:text-white">Fallow Us</p>
+            </div>
+          </div>
         </footer>
       </section>
       <div
@@ -303,7 +312,7 @@
             </svg>
           </a>
 
-          <button>
+          <button id="toggle-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -321,5 +330,19 @@
         </a>
       </div>
     </main>
+    <script>
+      const htmlElement = document.querySelector("html")
+      const toggleButton = document.querySelector("#toggle")
+      const toggleButtonSm = document.querySelector("#toggle-sm")
+
+      toggleButton.addEventListener("click", ()=> toggleDarkMode() )
+      toggleButtonSm.addEventListener("click", ()=> toggleDarkMode() )
+
+      const toggleDarkMode = () => {
+        htmlElement.classList.contains("dark")?
+        htmlElement.classList.remove("dark"):
+        htmlElement.classList.add("dark")
+      }
+    </script>
   </body>
 </html>
