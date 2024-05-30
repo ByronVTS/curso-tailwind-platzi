@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,22 +13,35 @@
   </head>
   <body class="font-Montserrat scroll-smooth dark:bg-gray-900">
     <header>
-      <nav class="z-20 w-full h-14 hidden bg-white dark:bg-gray-800 lg:flex p-4 justify-between fixed">
+      <nav
+        class="z-20 w-full h-14 hidden bg-white dark:bg-gray-800 lg:flex p-4 justify-between fixed">
         <div class="h-auto w-auto">
           <p class="dark:text-white text-xl text-primary">PlatziTravel</p>
         </div>
         <div class="dark:text-white flex gap-4 ml-4">
-          <a class="dark:text-white font-bold text-md text-primary" href="#home">Inicio</a>
-          <a class="dark:text-white font-bold text-md text-primary" href="#recomendados"
+          <a class="dark:text-white font-bold text-md text-primary" href="#home"
+            >Inicio</a
+          >
+          <a
+            class="dark:text-white font-bold text-md text-primary"
+            href="#recomendados"
             >Recomendados</a
           >
-          <a class="dark:text-white font-bold text-md text-primary" href="#rentas">Rentas</a>
-          <a class="dark:text-white font-bold text-md text-primary" href="#FAQS">FAQS</a>
-          <a class="dark:text-white font-bold text-md text-primary" href="#nosotros"
+          <a
+            class="dark:text-white font-bold text-md text-primary"
+            href="#rentas"
+            >Rentas</a
+          >
+          <a class="dark:text-white font-bold text-md text-primary" href="#FAQS"
+            >FAQS</a
+          >
+          <a
+            class="dark:text-white font-bold text-md text-primary"
+            href="#nosotros"
             >Sobre nosotros</a
           >
         </div>
-        <div class="flex gap-4 ">
+        <div class="flex gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -37,27 +50,26 @@
             stroke="currentColor"
             class="size-9">
             <path
-              class="fill-current text-red-500 "
+              class="fill-current text-red-500"
               stroke-linecap="round"
               stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
           <button id="toggle">
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="size-9">
-            <path
-              class="fill-current text-gray-500 dark:text-white"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-          </svg>
-        </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-9">
+              <path
+                class="fill-current text-gray-500 dark:text-white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+          </button>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +88,7 @@
       </nav>
     </header>
     <main>
-      <section class="w-full h-full h-screen">
+      <section class="w-full h-screen">
         <div class="w-full h-3/4" id="home">
           <div
             class="w-full h-auto flex flex-col absolute sm:space-y-96 py-4 items-center lg:space-y-6 lg:items-start lg:pt-32 lg:justify-start">
@@ -90,15 +102,15 @@
               like this
             </div>
             <button
-              class=" bg-white text-xl mt-96 font-semibold text-primary p-4 shadow-lg w-2/5 rounded-full leading-none transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 lg:ml-16 lg:w-48">
+              class="bg-white text-xl mt-96 font-semibold text-primary p-4 shadow-lg w-2/5 rounded-full leading-none transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 lg:ml-16 lg:w-48">
               Explorar
             </button>
           </div>
 
           <div class="w-full h-full">
             <div
-              class=" z-0 w-full h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:h-full lg:bg-center">
-              <img class=" lg:hidden" src="./img/sanFrancisco.jpg" alt="" />
+              class="z-0 w-full h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:h-full lg:bg-center">
+              <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -107,73 +119,85 @@
           <div
             class="w-auto h-auto p-10 items-center overflow-x-auto overscroll-x-contain flex space-x-4 overflow-y-hidden">
             <div class="card">
-              <div class="  w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>              
-              <div class="absolute   bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+              <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+              <div
+                class="absolute bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
                 <p class="z-50 text-white text-lg font-bold">Norway</p>
                 <p class="z-50 text-white">Paisajes Increibles</p>
               </div>
-            </div>              
+            </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
-                <p class="text-tertiary text-lg font-bold dark:text-white">New York</p>
+              <div
+                class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">
+                  New York
+                </p>
                 <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
-                <p class="text-white text-lg font-bold  ">Yosemite</p>
+              <div
+                class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold">Yosemite</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
-                <p class="text-tertiary text-lg font-bold dark:text-white">Seattle</p>
+              <div
+                class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">
+                  Seattle
+                </p>
                 <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
-            
+
             <div class="card">
               <div
                 class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
-                <p class="text-white text-lg font-bold ">Switzerland</p>
+              <div
+                class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
-                <p class="text-tertiary text-lg font-bold dark:text-white" >Seattle</p>
+              <div
+                class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">
+                  Seattle
+                </p>
                 <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div
                 class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
-                <p class="text-white text-lg font-bold  ">Switzerland</p>
+              <div
+                class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                <p class="text-white text-lg font-bold">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-              <div class="targeta">
-                <div class="relative h-full w-full">
-                  <div class="absolute inset-0 bg-gray-900 filter blur-3xl"></div>
-                  <div class="relative w-full h-full z-10">
-                    <p class="text-black text-lg font-bold">Seattle</p>
-                    <p class="text-black">Paisajes Increibles</p>
-                  </div>
-                </div>
+              <div
+                class="bg-white w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-600">
+                <p class="text-tertiary text-lg font-bold dark:text-white">
+                  Seattle
+                </p>
+                <p class="text-tertiary dark:text-white">Paisajes Increibles</p>
               </div>
             </div>
             <div class="card">
               <div
-                class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover "></div>
-              <div class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
+                class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
+              <div
+                class="bg-secondary w-full p-2 rounded-b-lg h-2/5 dark:bg-gray-800">
                 <p class="text-white text-lg font-bold">Switzerland</p>
                 <p class="text-white">Paisajes Increibles</p>
               </div>
@@ -200,52 +224,108 @@
               <p class="text-xl font-bold text-white">Miami</p>
               <p class="text-sm text-black">2 Habitaciones y 1 baño</p>
             </div>
-            <div class="w-full h-96 bg-bali  bg-cover rounded-lg p-6">
+            <div class="w-full h-96 bg-bali bg-cover rounded-lg p-6">
               <p class="text-xl font-bold text-white">Bali</p>
               <p class="text-sm text-black">2 Habitaciones y 1 baño</p>
             </div>
           </div>
         </div>
-        <div id="experiencias" class="grid gap-y-10 lg:grid-cols-3 lg:grid-rows-3 m-12">
-          <div class="grid place-items-center relative lg:col-start-1 lg:col-end-3">
+        <div
+          id="experiencias"
+          class="grid gap-y-10 lg:grid-cols-3 lg:grid-rows-3 m-8">
+          <div
+            class="grid place-items-center relative lg:col-start-1 lg:col-end-3">
             <div class="absolute inset-0 flex justify-center items-center">
-              <div class="dark:bg-gray-500 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
+              <div
+                class="dark:bg-gray-500 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
             </div>
-            <div class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
+            <div
+              class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
               <div class="text-white m-8">
                 <h2 class="text-3xl">Gerardo</h2>
                 <p>👍👍👍👍👍</p>
-                <p class="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa magnam dolorum omnis soluta</p>
+                <p class="mt-8">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsa magnam dolorum omnis soluta
+                </p>
               </div>
             </div>
           </div>
-          <div class="grid place-items-center relative lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3">
+          <div
+            class="grid place-items-center relative lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3">
             <div class="absolute inset-0 flex justify-center items-center">
-              <div class="dark:bg-gray-700 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
+              <div
+                class="dark:bg-gray-700 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
             </div>
-            <div class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
+            <div
+              class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
               <div class="text-white m-8">
                 <h2 class="text-3xl">Ballarta</h2>
                 <p>🎃🎃🎃🎃🎃🎃</p>
-                <p class="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa magnam dolorum omnis soluta</p>
+                <p class="mt-8">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsa magnam dolorum omnis soluta
+                </p>
               </div>
             </div>
           </div>
-          <div class="grid place-items-center relative lg:col-start-1 lg:col-end-3 lg:row-start-3 lg:row-end-4">
+          <div
+            class="grid place-items-center relative lg:col-start-1 lg:col-end-3 lg:row-start-3 lg:row-end-4">
             <div class="absolute inset-0 flex justify-center items-center">
-              <div class="dark:bg-gray-700 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
+              <div
+                class="dark:bg-gray-700 bg-gray-900 filter blur-3xl w-full lg:w-4/5 h-full rounded-xl"></div>
             </div>
-            <div class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
+            <div
+              class="dark:bg-black relative w-full lg:w-4/5 bg-gray-900 rounded-xl z-10">
               <div class="text-white m-8">
                 <h2 class="text-3xl">Ballarta</h2>
                 <p>👽👽👽👽👽</p>
-                <p class="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa magnam dolorum omnis soluta</p>
+                <p class="mt-8">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsa magnam dolorum omnis soluta
+                </p>
               </div>
             </div>
           </div>
         </div>
-        
-        
+
+        <!--  -->
+
+        <div id="formulario" class=" h-auto m-8 grid grid-cols-1 lg:grid-cols-2" >
+            <div id="formulario--left" class=" h-auto w-full ">
+              <h2 class="text-3xl text-center text-primary font-bold mt-8">Contactanos</h2>
+                <p class="mt-6">Tienes problemas con el alcohol y te sobra el dinero <br> Nosotros tenemos el hospedaje para que pases la cruda tranquilo y comodamente</p>
+            </div>
+
+            <div id="formulario--right" class=" mt-8">
+              <form class="mt-8">
+                <div class="mb-4">
+                  <label class="block text-tertiary text-sm font-medium mb-2" for="nombre">Nombre</label>
+                  <input id="nombre" type="text" class="appearance-none border rounded-lg w-full px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+          
+                <div class="mb-4 mt-6">
+                  <label class="block text-tertiary text-sm font-medium mb-2" for="email">Correo electrónico</label>
+                  <input id="email" type="email" class="appearance-none border rounded-lg w-full px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+          
+                <div class="mb-4 mt-6">
+                  <label class="block text-tertiary text-sm font-medium mb-2" for="asunto">Asunto</label>
+                  <input id="asunto" type="text" class=" appearance-none border rounded-lg w-full px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+          
+                <div class="mb-4 mt-6">
+                  <label class="block text-tertiary text-sm font-medium mb-2" for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" rows="5" class="appearance-none border rounded-lg w-full px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                </div>
+          
+                <button type="submit" class="bg-primary hover:bg-primary  font-bold py-2 px-4 rounded">Enviar</button>
+              </form>
+            </div>
+        </div>
+          
+
+
         <div id="faqs" class="h-auto w-full">
           <div class="w-full h-auto px-6 flex flex-col space-y-4">
             <p class="text-3xl text-primary font-semibold mt-6">FAQS</p>
@@ -280,15 +360,20 @@
         </div>
 
         <footer
-         id="#nosotros" class=" h-auto w-full mt-6 p-6 h-auto bg-gray-200 pd-6 space-y-2 dark:bg-black lg:pb-12 pb-20">
-          <p class="text-lg text-gray-500 font-bold text-center dark:text-white">About Us</p>
+          id="#nosotros"
+          class=" w-full mt-6 p-6 h-auto bg-gray-200 pd-6 space-y-2 dark:bg-black lg:pb-12 pb-20">
+          <p
+            class="text-lg text-gray-500 font-bold text-center dark:text-white">
+            About Us
+          </p>
           <div class="lg:flex lg:justify-center">
-
             <div class="lg:flex lg:w-3/5 lg:justify-between">
               <p class="text-sm text-gray-600 dark:text-white">Investors</p>
               <p class="text-sm text-gray-600 dark:text-white">Jobs</p>
               <p class="text-sm text-gray-600 dark:text-white">Privaci</p>
-              <p class="text-sm text-gray-600 dark:text-white">Terminos y condiciones</p>
+              <p class="text-sm text-gray-600 dark:text-white">
+                Terminos y condiciones
+              </p>
               <p class="text-sm text-gray-600 dark:text-white">Platzi travel</p>
               <p class="text-sm text-gray-600 dark:text-white">Fallow Us</p>
             </div>
@@ -375,21 +460,20 @@
           </button>
         </a>
       </div>
-      
     </main>
     <script>
-      const htmlElement = document.querySelector("html")
-      const toggleButton = document.querySelector("#toggle")
-      const toggleButtonSm = document.querySelector("#toggle-sm")
+      const htmlElement = document.querySelector("html");
+      const toggleButton = document.querySelector("#toggle");
+      const toggleButtonSm = document.querySelector("#toggle-sm");
 
-      toggleButton.addEventListener("click", ()=> toggleDarkMode() )
-      toggleButtonSm.addEventListener("click", ()=> toggleDarkMode() )
+      toggleButton.addEventListener("click", () => toggleDarkMode());
+      toggleButtonSm.addEventListener("click", () => toggleDarkMode());
 
       const toggleDarkMode = () => {
-        htmlElement.classList.contains("dark")?
-        htmlElement.classList.remove("dark"):
-        htmlElement.classList.add("dark")
-      }
+        htmlElement.classList.contains("dark")
+          ? htmlElement.classList.remove("dark")
+          : htmlElement.classList.add("dark");
+      };
     </script>
   </body>
 </html>
